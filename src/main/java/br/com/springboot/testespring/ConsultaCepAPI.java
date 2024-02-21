@@ -14,6 +14,7 @@ public class ConsultaCepAPI {
 
 
     @GetMapping("/cep/{cep}")
+
     public String buscaCEP(@PathVariable String cep) {
         RestTemplate restTemplate = new RestTemplate();
         String apiUrl = String.format("https://viacep.com.br/ws/%s/json/",cep);

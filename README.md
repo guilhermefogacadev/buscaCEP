@@ -5,7 +5,7 @@
 
 Esta API REST Spring Boot simples busca informações de CEP (Código de Endereço Postal Brasileiro) da API ViaCEP.
 
-**## Uso**
+**## Objetivo**
 Consolidar a prática em consumo de API's externas
 
 **## Uso**
